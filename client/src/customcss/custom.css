@@ -1,0 +1,308 @@
+#container-class{
+border: 2px solid black;
+}
+#homeLeft{
+    color: rgb(75, 26, 29);
+    font-weight: bold;
+    text-shadow: 2px;
+}
+#btnModule
+{
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#className{
+    color: black;
+    font-weight: 600;
+}
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  .custom-navbar {
+    background-color: #3498db; /* Change the background color as per your preference */
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important; /* Change the text color as per your preference */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* Change the navbar toggler icon color as per your preference */
+  }
+  
+  /* Add more styles based on your design preferences */
+  .login-container {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  /* Add more styles based on your design preferences */
+  .signup-container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .signup-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  /* Add more styles based on your design preferences */
+  .welcome-message {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .module-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .module-box {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .module-box {
+      flex: 0 0 100%;
+    }
+  }
+  .giveexam-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .giveexam-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    display: none;
+  }
+  
+  .question-container.active {
+    display: block;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .prev-button,
+  .next-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .prev-button:disabled,
+  .next-button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  /* Add these styles to your existing stylesheet or create a new one */
+
+.giveexam-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.question-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container.active {
+  border-color: #3498db;
+}
+
+.question-container h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.prev-button,
+.next-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev-button:disabled,
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#ques {
+  list-style: none;
+  padding: 0;
+  
+}
+
+#liq{
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#liq:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Add these styles to your existing stylesheet or create a new one */
+
+.container-admin {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3498db;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.button-admin-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+/* Add these styles to your existing stylesheet or create a new one */
+
+.container-form1,
+.container-form2 {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+  
